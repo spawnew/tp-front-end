@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eee8e8;
+    color: #333;
+    display: grid;
+
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+
+}
+.contenido {
+    display: flex;
+    justify-content: space-around;
+
+    align-items: center;
+    background-color: beige;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 30px;
+    color: #333;
+    margin-top: 20px;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    width: 100%;
+    flex-direction: row;
+    height: 70px;
+    padding: 10px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 10px;
+
+}
+
+.navbar ul a {
+    color: black;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 20px;
+    text-decoration: none;
+    background-color: beige;
+    padding: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+
+}
+
+.footer ul {
+    display: flex;
+    list-style: none;
+
+
+}
+
+.footer ul img {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+
+}
+
+.footer ul a {
+    color: beige;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.productos  {
+    width:18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #333;
+    color: beige;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.productos  img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+
+
+.productos  button {
+    color: black;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: rgb(8, 240, 124);
+    padding: 3px;
+}
+
+.button :hover {
+    background-color: rgb(11, 216, 55);
+    color: black;
+    padding: 10px;
+
+}
+
+.navbar ul a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.productos :hover {
+    background-color: rgb(80, 80, 78);
+    color: beige;
+    border: solid 4px solid #03ee65;
+}
+#contenedor-productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
