@@ -46,8 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     };
 
-    renderizarProductos();
-    actualizarAgregador();
+   
     const agregarProducto=(producto) => {
        
         carrito.push(producto);
@@ -58,6 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let contador = document.getElementById('contador-carrito');
         contador.textContent = carrito.length;
     }
-  
+    renderizarProductos();
+    actualizarAgregador();
 }
 );

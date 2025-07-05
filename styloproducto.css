@@ -136,7 +136,7 @@ body {
     color: #fff;
 }
 
-.productos :hover {
+.producto :hover {
     background-color: rgb(80, 80, 78);
     color: beige;
     border: solid 4px solid #03ee65;
