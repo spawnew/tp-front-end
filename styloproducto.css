@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #eee8e8;
+    color: beige;
     color: #333;
     display: grid;
 
@@ -115,13 +115,14 @@ body {
 
 
 .producto  button {
-    color: black;
-    border: 1px solid;
-    border-radius: 10px;
-    margin-top: 10px;
-    text-decoration: none;
-    background-color: rgb(8, 240, 124);
-    padding: 3px;
+    color: rgb(27, 27, 34);
+        border: 3px solid;
+        border-radius: 10px;
+        margin-top: 10px;
+        text-decoration: none;
+        background-color: rgb(8, 240, 124);
+        padding: 6px;
+        margin: 10px;
 }
 
 .button :hover {
@@ -147,4 +148,35 @@ body {
     justify-content: center;
     gap: 20px;
     padding: 20px;
+}
+
+ .buton {
+    color: rgb(27, 27, 34);
+    border: 3px solid;
+    border-radius: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: rgb(8, 240, 124);
+    padding: 6px;
+    margin: 10px;
+}
+.butonvaciar {
+    color: rgb(27, 27, 34);
+    border: 3px solid;
+    border-radius: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: rgb(233, 130, 12);
+    padding: 6px;
+    margin: 10px;
+}
+.botoneliminar {
+    color: rgb(27, 27, 34);
+    border: 3px solid;
+    border-radius: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: rgb(159, 67, 219);
+    padding: 6px;
+    margin: 10px;
 }

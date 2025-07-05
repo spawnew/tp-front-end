@@ -23,6 +23,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 let botonEliminar = document.createElement('button');
                 botonEliminar.textContent = 'Eliminar del carrito';
+                
+                botonEliminar.classList.add ('botoneliminar');
                 botonEliminar.addEventListener('click', () => {
                     eliminarProducto(index);
                 });
@@ -47,12 +49,14 @@ document.addEventListener('DOMContentLoaded', () => {
         if (carrito.length) {
             let btnVaciar = document.createElement('button');
             btnVaciar.textContent = 'Vaciar carrito';
+            btnVaciar.classList.add('butonvaciar');
             btnVaciar.addEventListener('click', () => {
                 vaciarCarrito();
             });
 
             let btnFinalizar = document.createElement('button');
             btnFinalizar.textContent = 'Finalizar compra';
+            btnFinalizar.classList.add('buton');
             btnFinalizar.addEventListener('click', () => {
                 let confirmacion = confirm('¿Estás seguro de que deseas finalizar la compra?');
                 if (confirmacion) {
